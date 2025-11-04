@@ -19,7 +19,7 @@
 </head>
 <body>
 <canvas width="750" height="585" id="game"></canvas>
-<script>e
+<script>
 const canvas = document.getElementById('game');
 const context = canvas.getContext('2d');
 const grid = 15;
@@ -27,7 +27,7 @@ const paddleHeight = grid * 5; // 80
 const maxPaddleY = canvas.height - grid - paddleHeight;
 
 var paddleSpeed = 6;
-var ballSpeed = 4;
+var ballSpeed = 5;
 
 const leftPaddle = {
   // start in the middle of the game on the left side
